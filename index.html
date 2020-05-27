@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Project First</title>
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!---->
+    <div id="section-0">
+      <!----------------------PLAYER 1----------------------------->
+      <div class="player-panel-0 active">
+        <div class="player-name" id="player-0">Player 1</div>
+        <div class="player-score" id="player-score-0">43</div>
+
+        <div class="player-current-box">
+          <div class="player-current-lable">current</div>
+          <div class="player-current-score" id="current-score-0">11</div>
+        </div>
+      </div>
+      <!------------------------PLAYER 2---------------------------->
+      <div class="player-panel-1">
+        <div class="player-name" id="player-1">Player 2</div>
+        <div class="player-score" id="player-score-1">43</div>
+        <div class="player-current-box">
+          <div class="player-current-lable">current</div>
+          <div class="player-current-score" id="current-score-1">11</div>
+        </div>
+      </div>
+      <!----------------------BUTTONS---------------------------------->
+      <button class="btn-new">
+        <i class="ion-ios-plus-outline"></i>NEW GAME
+      </button>
+      <button class="btn-hold">
+        <i class="ion-ios-download-outline"></i>HOLD DICE
+      </button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>ROLL DICE</button>
+
+      <img src="/images/dice-2.png" alt="DICE" class="dice-0" id="dice" />
+      <img src="/images/dice-1.png" alt="DICE" class="dice-1" id="dice-1" />
+      <input class="final-score" type="text" placeholder="Enter Final score" />
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
