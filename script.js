@@ -92,7 +92,8 @@ function init() {
   document.getElementById("current-score-1").textContent = "0";
   document.getElementById("player-0").textContent = "Player 1";
   document.getElementById("player-1").textContent = "Player 2";
-  document.querySelector("#player-" + activeplayer).classList.remove("winner");
+  document.querySelector("#player-0").classList.remove("winner");
+  document.querySelector("#player-1").classList.remove("winner");
   document.querySelector(".player-panel-0").classList.remove("active");
   document.querySelector(".player-panel-1").classList.remove("active");
   document.querySelector(".player-panel-0").classList.add("active");
